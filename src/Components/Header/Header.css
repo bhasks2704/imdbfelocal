@@ -1,0 +1,31 @@
+header {
+  background-color: rgba(92, 94, 95, 0.075);
+  margin-top: 0;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#logo {
+  height: 35px;
+  display: block;
+}
+
+.menubox {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 100px; */
+  box-sizing: border-box;
+}
+
+.yellowclose {
+  background-color: yellow;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 70%;
+  padding: 2px 2px;
+  font-weight: bold;
+  font-size: 18px;
+}
