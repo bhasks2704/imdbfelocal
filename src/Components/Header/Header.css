@@ -13,8 +13,8 @@ header {
 }
 
 .menubox {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   /* padding: 100px; */
   box-sizing: border-box;
 }
@@ -28,4 +28,61 @@ header {
   padding: 2px 2px;
   font-weight: bold;
   font-size: 18px;
+}
+.menubox-header {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+}
+.menubox-body {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  margin-left: 20%;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 30%;
+  text-align: justify;
+  height: 300px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.search-select {
+  height: 25px;
+  padding: 2px;
+}
+.search {
+  height: 20px;
+  width: 50%;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.watchlist-header,
+.signin-header {
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.language-select {
+  background: none;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.language-select option {
+  color: black;
 }
